@@ -33,7 +33,7 @@ Install/Setup:
    cd ~/
    git clone https://nathancanterbury@bitbucket.org/nathancanterbury/directedstudyfall17.git
    cd ~/directedstudyfall17/
-   python source/app.py tweets/labelledtweets.txt arff_files/test.arff
+   python source/app.py tweets/labelledtweets.txt arff_files/test.arff True
 ```
 
 Acknowledgements:

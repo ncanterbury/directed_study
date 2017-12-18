@@ -7,7 +7,7 @@ Install/Setup:
 1. Create virtual environment for dependencies/libraries. I would recommend using
    anaconda.
 ```
-   command line instruction: conda create -name myenv python=2.7
+   command line instruction: conda create --name myenv python=2.7
    source activate myenv 
 ```
 2. Install dependencies: 

@@ -1,0 +1,612 @@
+% Twitter Data
+@RELATION tweets
+
+@ATTRIBUTE positive_words NUMERIC
+@ATTRIBUTE sentiment {pro_obama, pro_romney}
+@ATTRIBUTE sentence_length NUMERIC
+@ATTRIBUTE text STRING
+@ATTRIBUTE vader_polarity NUMERIC
+@ATTRIBUTE negative_words NUMERIC
+
+@DATA
+0,pro_romney,89,'warrantless electron surveil surg obama justic depart via huffpostpol',0,0
+1,pro_obama,107,'steverocknrol fine told opinion base observ obama cannot pleas everyon',0,0
+0,pro_obama,19,'obama aka 2 termzzz',0,0
+0,pro_romney,129,'cinsmith1 spreadbutt new drink game call lie bastard drink everytim obama open hi mouth interchang shot w wat',0,2
+1,pro_romney,59,'poll favor obama conspiraci democrat media ?',0,1
+1,pro_obama,129,'seanhann obama receiv huge endors yesterday american id vote obama said venezuelan leader hugo chavez',0,0
+0,pro_obama,70,'kamaumandela 35 day elect presid barack obama',0,0
+1,pro_obama,34,'marksal obama go win',0,0
+1,pro_romney,112,'twitchyteam boom american crossroad devast video drub obama hard embassi attack fail leadership!',0,4
+0,pro_romney,77,'drudge_report hundr line 1 84 ga michigan anti obama stunt',0,1
+1,pro_obama,128,'fivethirtyeight weird poll day raw number decent romney except nh poll howev within poll trend',0,1
+0,pro_romney,68,'cps3indi ahmalcolm big reason whi everyon vote romney !',0,0
+1,pro_romney,126,'ingrahamangl believ almost noth obama wed nite wd lead journalist say lost romney',0,1
+0,pro_romney,119,'joshgreenman knew gov romney serv gov romney gov romney wa friend mine mr presid im gov romney',0,0
+0,pro_romney,99,'kitamelendez kill shit osama run shit obama bitch drama fuck yo bitch babymamaaaaa !',0,5
+0,pro_romney,30,'obama lie support clueless',1,2
+1,pro_obama,135,'krmullins1964 romney admit ha disdain 47 american peopl say victim hi work translat need',0,1
+0,pro_romney,132,'krystalball1 eastwood use chair gop convent invis obama mitt use invis mic debat lol?',0,2
+0,pro_romney,109,'naomiaklein u n address wikileak julian assang urg obama admin end regim secreci democracynow',0,0
+0,pro_obama,66,'new post obama romney rake million small dollar donat',0,0
+0,pro_obama,132,'ingrahamangl feel romney media bash amp bia might done might much 2 overcom',0,2
+0,pro_romney,63,'rahn vote obama vote recess washington time',0,1
+0,pro_obama,50,'romney amp obama stock market killer economi',0,0
+1,pro_obama,103,'capflowwatch us govt employe among top campaign contributor obama tcot taker vs maker',0,0
+0,pro_obama,104,'abcmsaj dloesch screencap obama campaign ladypart tumblr gt gt see noth wrong thi ?',0,1
+2,pro_obama,119,'seanhann obama said mr romney good debat 1000 h wood fiction writer make obama look like masterbat',0,1
+0,pro_obama,126,'kasinca bjhare dailyko supris r romney tri find someth even cre',0,0
+1,pro_obama,127,'grainofsand romney ha idea hell talk debat gonna like watch snl skit obama play',0,1
+0,pro_romney,109,'loudobbsnew reckless obama admin diplomat ask repeatedli secur befor libya attack fox news',0,2
+0,pro_romney,133,'chucknelli realiz obama tell defens contractor issu pink slip til 11 7 offer cover legal issu',0,2
+1,pro_obama,61,'itsblackstewi mitt romney might well vote obama',0,0
+0,pro_obama,74,'fuck ndaarul thank obama may sway vote',0,0
+3,pro_romney,128,'loudobbsnew nation media refus vet obama 2008 better hope romney gop strong enough take obama record amp',0,1
+0,pro_romney,131,'notcommonfact presid obama wa known heavi marijuana smoker hi teen colleg day hi nicknam allegedli use',0,0
+0,pro_romney,103,'charlesdharapak look worker chipotl pose mitt romney dure lunch stop denver via ap!',0,0
+1,pro_romney,83,'kelso_parodi obama realli like coca cola fox news obama declar war pepsi',0,0
+1,pro_obama,105,'mitt romney bain capit ship job china right profit watch thi video',0,0
+1,pro_romney,84,'redsteez wonder gabbi gifford think obama bullet analog newcivilton',0,0
+1,pro_obama,128,'noltenc hi howardkurtz would love link yer noth see stori romney prep school bulli amp perri 25',0,1
+2,pro_obama,126,'supermanhotmal hey romney want peopl like give money plan parenthood well think not?',0,0
+1,pro_obama,120,'im laugh think obama better romney suck rule castro know wassup',0,1
+0,pro_romney,98,'libertylynx abcnew obama pander anim slaughter innoc name god',0,2
+0,pro_romney,34,'conserv seiz obama video',0,0
+0,pro_romney,127,'howardkurtz boy report sure lousi job cover 2007 obama speech wa deliv front tv camera',0,1
+0,pro_obama,80,'mit romney wa get pay somehow within 28 year call bs thatsjustm',0,1
+1,pro_obama,134,'girafff respect someon go vote romney doesnt even know hi full name mittin gonzalez romney iii',0,0
+0,pro_romney,127,'crush dont americannot limbaugh said slip mind becaus look obama tcot ?',0,1
+0,pro_romney,119,'reagancoalit articl elect 2008 interview cnn shock black wont vote obama fastandfuri cspan2012',0,1
+1,pro_obama,100,'richard never work meet richard hay pick mitt romney trash 1u p2 via afscm',0,1
+0,pro_obama,100,'olddog_1946 parti voter fraud 1000 fake republican regist romney amp gop !',0,2
+0,pro_romney,39,'matalin ann romney soul campaign',0,0
+1,pro_romney,113,'dont normal agre w biden right middl class buri last four year obama outfrontcnn msnbc',0,0
+1,pro_obama,109,'liliaep pb star jim lehrer fair romney want zero pb subsidi presidentiald ?',0,0
+1,pro_obama,129,'soopermexican ani white conserv made fun obama use dialect use video hed excori wor',0,1
+0,pro_romney,75,'dancwn obama war children women conserv tcot teaparti p2 zqrn',0,1
+2,pro_obama,132,'pourmecoffe obama throw mitt entir debat yoda voic readi know readi four yea ? ?',0,0
+0,pro_romney,86,'twitter polit index octob 2 2012 barackobama 25 mittromney 32 twindex',0,0
+0,pro_romney,52,'romney give major foreign polici speech next week',0,0
+1,pro_obama,92,'barackobama thi elect import sit regist vote befor late',0,0
+0,pro_romney,107,'worldnew news insid romney debat prep cnn dana bash look mitt romney debat prep speak exclu',0,1
+0,pro_obama,31,'obama snap romney 9pm',0,0
+0,pro_obama,138,'ask mani romney support decis get differ variat obama suck straight fact ignor',0,2
+1,pro_obama,130,'homerjsimpson advic romney tonight fake nose bleed run drive away alway work teacher conferen',0,2
+0,pro_romney,126,'katyinindi id suggest take drink everi obama lie wed pass 20 minut amp miss debat cantaff !',0,2
+0,pro_romney,71,'msbammb obama look play word search aint hear romney',0,0
+0,pro_romney,127,'prettynitemare_ obama got nigga hang infront ga station n liquor store watch debat see chang ! ! !',0,1
+0,pro_obama,13,'obama g lol',1,0
+0,pro_obama,70,'4more retweet want four year presid obama debates!',0,0
+2,pro_romney,128,'jessiemcmullen obama care lazi work decid 7 kid cant take care oh well ?',0,1
+2,pro_romney,127,'great job romney wonder job highlight debat wa onli one nobama romney2012!',0,0
+0,pro_romney,13,'obama goof',0,0
+1,pro_romney,112,'ewerickson obama wouldnt look romney like wouldnt look wa go libya meek distract',0,0
+0,pro_obama,85,'think romney destroy obama tonight wait ryan debat biden debat',0,0
+0,pro_romney,99,'romney black think belief would stay would still teamobama ? ?',0,0
+0,pro_romney,54,'princessfatimaa catch ball mitt romney',0,0
+0,pro_obama,64,'simplyyair obama address nation romney address obama',0,0
+0,pro_obama,128,'elayneboosl romney repeat endlessli govt shouldnt make ur health care decis 4 u whi didnt obama say u mean unless',0,0
+2,pro_romney,118,'politico cnn best advic obama leader free world hold hi head high debat denverdeb obama2012!',0,0
+1,pro_romney,132,'whoaadurrmollz realiz teenag kid like obama know noth want hear peopl know',0,0
+1,pro_obama,141,'maddow romney definit ha ball look 50 million peopl eye say altogeth 24 cent hr china fair wage ! ? ?',0,0
+1,pro_obama,130,'mpoindc iron thing romney succeed embrac essenc specif obama plan hc educ',0,1
+1,pro_obama,107,'boil thi alway romney say anyth win elect reason tonight obama',0,0
+0,pro_obama,41,'romney bag last minut flight',0,0
+1,pro_romney,63,'romney win big first debat obama toast mitt smoke',0,0
+0,pro_obama,133,'michaelianblack thought presid obama miss sever opportun call mitt romney douchebag throughout debat',0,2
+1,pro_romney,70,'capflowwatch romney win debat obama lehrer big bird tcot',0,0
+0,pro_romney,126,'elishanew liber want blame anyon obama beat last night blame bush whi obama show deb ?',0,2
+0,pro_obama,86,'classycouturexo cant watch thi shit anymor romney facial express disgust',0,2
+0,pro_romney,32,'therealgdubya romney 1 obama 0',0,0
+1,pro_romney,127,'mmurraypolit exampl im go cut educ fund romney agreement hi medicar plan mean vouch',0,0
+0,pro_obama,56,'obama lose say move europ nigga pari !',0,1
+0,pro_romney,57,'michellemalkin jammiewf obama debat word cloud ouch',0,1
+0,pro_obama,80,'blgblrd break leak photo mitt romney abus anoth bird cc theedshow!',0,1
+0,pro_romney,66,'heyitsabear 3 cheer obama one term presid romney2012! !',0,0
+0,pro_obama,70,'im run presid pete sake cant illeg mitt romney',0,0
+0,pro_romney,124,'obsoletedogma lol trish_regan team market analyst say romney debat perform sent dow',0,0
+0,pro_romney,129,'aceofspadeshq media blame failur job romney obama feed line buy romney',0,1
+0,pro_obama,122,'mgwinchel maxonmovi mayb obama could spit full sentenc onc would one side',0,0
+1,pro_obama,139,'romney somehow miracul avoid put place tax cut add deficit ill dye hair pink chang name kiko',0,0
+1,pro_obama,45,'wholiedtoy said romney wasnt gonna win',0,0
+1,pro_obama,118,'edshow barackobama cant believ peopl give romney win lie contradict sad ! !',0,2
+0,pro_romney,93,'romneyrespons video obama campaign admit 5 trillion tax cut attack fals tcot',0,2
+0,pro_obama,131,'lenadunham romney seem alert last night onli becaus get sit around day hi hair obama',0,0
+0,pro_obama,58,'truthteam2012 presid obama mitt romney prioriti',0,0
+3,pro_romney,111,'romney gain ground obama strong debat bump plan like ani bump road via yahoonew',0,2
+0,pro_romney,71,'breitbartnew cutter conced 5 trillion attack romney true',0,1
+0,pro_romney,116,'stephenfhay amandacarpent funni pb wasnt nearli hostil obama debt commish suggest cut fund',0,3
+0,pro_obama,93,'stephenathom im concern next debat obama final show first debat',0,1
+1,pro_obama,132,'peopl like romney ignor debat rule cut presid could confirm pompou ass ?',0,1
+2,pro_obama,104,'thenewd mitt romney debat love great teacher mitt romney june need fewer teacher rt',0,0
+0,pro_romney,35,'romney floor obama first debat',0,0
+1,pro_romney,98,'great anoth veil obama onli got elect becaus black piec nation guilti conscienc',0,1
+1,pro_romney,131,'joenbc littl shock jmeachum whi doe presid obama look mad even passiv black man cant escap stereotyp wow ?',0,4
+0,pro_romney,62,'comrad obama dream hi real father communist frank davi',0,0
+1,pro_obama,86,'bardorobot wa one romney lay thick ridicul promis !',0,1
+0,pro_obama,24,'obama phone ladi remix !',0,0
+0,pro_romney,128,'delrays dont know whi anyon would believ today job number everybodi know obama pal around errorist ugh unfollow!',0,1
+0,pro_obama,86,'trendysocialit say obama underestim romney underestim obama',0,0
+1,pro_obama,74,'dearobama yu win throw parti dat pussi ass nigga mitt romney',0,0
+1,pro_obama,97,'stevebenen romney top 50 brazen falsehood week easili biggest list 2012',0,1
+0,pro_obama,123,'barackobama black guy mitt romney commerci lv got jail dy ago romney bail ?',0,0
+0,pro_romney,130,'davidaxelrod brutal summer heat yield season temp elect loom real rig data pro obama weath',0,1
+0,pro_obama,60,'obama couldnt run lemonad stand romney debat suckstosuck',0,0
+1,pro_obama,128,'barackobama agre weve come far let mitt romney take us back top polici caus econo',0,0
+1,pro_obama,130,'diegouk took republican 8 year crash economi presid obama 3 1 2 year clean mess forward obama p2 c',0,2
+0,pro_obama,128,'imtracymorgan obama probabl call romney said dont see hate outsid white hous cant even get',0,1
+1,pro_obama,94,'michelleobama thi elect import sit regist vote befor late',0,0
+0,pro_obama,124,'lolgop democrat think romney liar republican think obama liar differ democrat actual exampl',0,2
+0,pro_obama,137,'think left forget romney bain shark attack said shark back colleg mean gut peopl lost 30 yr pension',0,4
+0,pro_romney,81,'moxiemom iowahawkblog moxiemom puppet altern spell barack obama',0,1
+1,pro_obama,143,'victoriaokan susan rice claim libya attack spontan amp movi admin knew wa terror romney liar unbeliev ! !',0,4
+0,pro_obama,30,'lmao_twitp romney vs obama',0,0
+0,pro_obama,130,'_shelovesdk rft bravopost romney said go parent colleg money bitch cant even get 5 mom make',0,1
+1,pro_obama,59,'thank autotimelin give k barack obama !',0,0
+2,pro_romney,97,'big super pac donor obama look like took million spent weed via sharethi',0,1
+0,pro_obama,90,'theofficialtreb romney cant even name 5 ramen noodl flavor doesnt know struggl',0,1
+1,pro_obama,69,'_followbrennon obama vs romney retweet obama favorit obama',0,0
+0,pro_romney,95,'nationaljourn gingrich clint eastwood empti chair symbol obama debat perform',0,0
+0,pro_romney,138,'see movi obama 2016 factual one measur might factual havent heard ani rebutt fr obama chicago hdqtr',0,0
+0,pro_romney,139,'purduepetesgirl obama embarrass ani american vet know amp commun disgust hi polici',0,2
+0,pro_obama,103,'blue virginia end mitt romney quest presid end presidenti debat',0,0
+0,pro_romney,124,'frankthedoorman republican call obama food stamp presid romney want dont care starv presid',0,1
+0,pro_romney,92,'romneyrespons shell shock team obama whine play blame game debat loss tcot',0,3
+0,pro_obama,49,'fuck romney commerci hi fuckin plan',0,1
+0,pro_obama,118,'dccc romney myth 6 obama rais tax middl class truth obama lower tax middl class famili',0,1
+1,pro_romney,77,'imadancer821 oscar winner duval host romney fundrais via breitbartnew',0,0
+0,pro_obama,126,'go need everyon vote obama becaus romney get offic becom striper want that!',0,0
+0,pro_obama,128,'ayeitstaylor_ mitt romney said borrow money parent colleg bitch cant even get 5 mom make',0,1
+0,pro_romney,111,'tcot evangel mitt complet 1st romney versu obama debat case miss want reliv',0,1
+0,pro_romney,120,'mittism cultur make differ natur resourc geographi peopl believ valu romney',0,0
+0,pro_obama,88,'realli hope nbcsnl amp sethmeyers21 realiz veri much miss fredarimisen obama',0,1
+0,pro_obama,135,'romney threaten vladimir putin though still fight cold war influenc way mani neocon advisor',0,1
+1,pro_obama,110,'michaelscher romney obama ha sign one new free trade agreement photo obama sign 3',0,0
+0,pro_romney,37,'whi obama lose three debat',0,1
+2,pro_obama,130,'white ladi work start convers well obama polit correct ass said mean presid obama',0,0
+0,pro_romney,47,'imdannytosh know dumbass name obama',0,0
+0,pro_obama,28,'obama vote2012 polit pic',0,0
+1,pro_obama,52,'sam_osorio obamacampaignin3word better romney',0,0
+0,pro_romney,132,'heard newest obama debat debacl excus chicago crowd davidaxelrod etc last word amp misguid one lol',0,3
+1,pro_obama,107,'thenewd romney profit abort republican amp support despit thi dont ever bit',0,0
+0,pro_romney,83,'mauric jone drew matt fort commerci obama neg fantasypoint',0,1
+1,pro_obama,129,'rodneysuccess band make danc food stamp make twerk mitt romney presid hoe gone work lmao ! ! !',0,0
+0,pro_obama,138,'romney diss spain debat last week spanish romney dishonest evas clueless foreign affair puppet',0,5
+1,pro_obama,119,'nathanhale1775 soldier support romney obama 40 much romney warmong meme p2 tlot tcot obama2012',0,0
+1,pro_obama,127,'factsaboutmitt romney said america safe place today yet 2011 fbi report violent crime fifth straight year',0,2
+0,pro_obama,128,'whokr romney becom presid gonna start read term amp condit might fuck around amp',0,1
+0,pro_romney,39,'would marri mitt romney hunk !',0,0
+2,pro_romney,111,'bitch say vote obama buz look like ban fight bitch u better vote keep ya food stamp',0,2
+1,pro_romney,91,'princeton economist harvey rosen obama campaign misrepres work romney tax plan',0,0
+0,pro_obama,112,'lolgop presid obama talk educ children mitt romney talk us children',0,0
+1,pro_romney,119,'romney pull four point lead obama among like voter new pew poll voter pay closer attent ye !',0,0
+1,pro_romney,56,'greatest screen shot ever politico ignor romney surg',0,0
+0,pro_obama,62,'oscar grouch obama knock via thedailycal rss',0,2
+0,pro_romney,112,'michellemalkin alternater mt dcseth obama ignor aid debat prep left stage think beat romney',0,0
+0,pro_romney,131,'grow paradigm shift voter percept obama special obama nonperform result poor leader !',0,1
+0,pro_obama,132,'fillwerral heard presid obama mitt romney alot talk nobodi spoke problem bag chip 60',0,1
+2,pro_romney,72,'wow veri emot billhobb video clip amaz stori romney today',1,0
+0,pro_romney,129,'mitt romney prophet would kind would turn wine water tell peopl get welfar',0,0
+1,pro_romney,75,'billionair ceo threaten fire employe obama win via thinkprogress',0,0
+0,pro_obama,116,'kyleraccio obama still turn thi around take pressur get peopl vote romney yet',0,0
+2,pro_obama,131,'clapp_datass band make danc food stamp make twerk mitt romney win presid hoe gone work',0,0
+0,pro_obama,128,'followmeobama mitt romney probabl watch hiphopaward think aint none nigga gonna vote cut',0,0
+1,pro_romney,130,'jess_nnz blackrepublican im liber consid latino whatev mean thi latino support romney latinosforromney',0,0
+1,pro_romney,125,'obama deceiv good peopl america gravest sin presid commit gift hi presid',0,2
+1,pro_obama,68,'feel like romney type guy save old use toilet paper',0,0
+5,pro_obama,99,'dont hate rich peopl dont respect men like romney theyr worth respect vote',0,1
+1,pro_romney,111,'menwhodin adamrichman ye fine amp dandi abraham lincoln would appal disast obama creat',0,2
+0,pro_romney,43,'nationalfearday romney get elect lol',0,0
+0,pro_obama,125,'barackobama spell bastard stand flat foot amp tell lie amp amp romney 2 kiss amp amp !',0,2
+0,pro_romney,107,'chasepolit casino magnat steve wynn busi terrifi obama may next read teaparti tpp',0,0
+2,pro_romney,98,'stephenathom somewher right obama thought snappi comeback mitt romney oh gosh',0,0
+0,pro_obama,40,'mother slain navi seal scold romney',0,0
+0,pro_obama,139,'buzzbissing could save time spent write pro romney column simpli say make amp wish keep',0,0
+0,pro_romney,132,'even gotten rais thi year lifestyl ha alter becaus price ga food screw obama !',0,0
+1,pro_obama,114,'michaelskolnik fact mitt romney ha said want see roe v wade overturn deni women right choos',0,1
+1,pro_romney,85,'drscott_atlanta u heard steve wynn give obama beat awesom ? ? ? ! ! ! !',0,0
+0,pro_romney,75,'secupp obama ignor warn act get elect shame mr presid',0,1
+0,pro_obama,128,'ayeitstaylor_ mitt romney said borrow money parent colleg bitch cant even get 5 mom make',0,1
+0,pro_romney,131,'newswatchcanada housejudiciarychair obama fire campaign staffer voter fraud caught video explain vote tw',0,1
+0,pro_obama,125,'headlessgang romney becom presid gone start read term amp condit might fuck around amp',0,1
+0,pro_obama,108,'lolgop romney believ peopl dont die becaus theyr uninsur romneycar wa coloss wast time',0,3
+0,pro_obama,79,'actuallynph im vote presid obama becaus believ equal foral',0,0
+0,pro_romney,88,'keithjonesjr lmao romney cup thi 7 eleven hope cup translat ballot',0,0
+0,pro_romney,76,'kolr10kozl farmer rancher romney coalit launch sgf mo ozark',0,0
+1,pro_romney,138,'kinda disappoint samuel jackson vote isnt race whi shud insult black femal celebr co support romney ?',0,2
+0,pro_obama,79,'actuallynph im vote presid obama becaus believ equal foral',0,0
+0,pro_romney,57,'toddstarn obama still cluck big bird tonight',0,0
+0,pro_romney,115,'ingrahamangl biden said someth total untru romney brief press conf wa hour steven death report',0,2
+0,pro_obama,102,'isnt romney rais tax middl class peool yeah think befor say hate obama ?',0,1
+0,pro_obama,101,'new name presid isnt gonna fix economi go joe biden let see second term obama2012',0,0
+0,pro_obama,107,'cnn report democrat biden obama 0 2 debat vote count obama2012',0,0
+0,pro_obama,121,'yella_princelom romney becom presid gon start read term amp condit might fuck around',0,1
+3,pro_romney,131,'themindofja tbh sinc obama nobel peac prize stop rate cannot think singl tangibl reason whi obama wo',0,0
+1,pro_romney,89,'obama biden hardcor hater whose self esteem far exce actual abil',0,1
+2,pro_romney,97,'take figdrewton besid glee lindsay lohan declar support mitt romney',0,0
+1,pro_obama,34,'abigailrsmith olivia like obama',0,0
+1,pro_obama,110,'trinacuppett biden doubl play onli made paul ryan look like clueless marionett trounc romney',0,1
+1,pro_obama,115,'jannnienhau saltwithsavor absolut perhap twitter support fellow romney support would start',0,0
+0,pro_obama,57,'reason 3 elect obama woodi pirtl 30 reason',0,0
+1,pro_obama,99,'im leav joe barack maryclim caption contest barackobama photo make us smile !',0,0
+0,pro_romney,90,'betka_4_jesu biden lie voter obama mandat cathol via stevenertelt',0,1
+0,pro_obama,111,'mt sandibehrn chines flag bain factori freeport il sensata romney pocket profit still',0,0
+0,pro_obama,126,'mikeepps___ romney becom presid gone start read term amp condit might fuck around amp b',0,1
+2,pro_obama,123,'letat_lechat carri interest capit gain tax deduct benefit romney hell keep mortgag deduct ?',0,1
+0,pro_romney,54,'portag counti tea parti hold romney ryan ralli',0,0
+1,pro_romney,128,'want know govern teacher support probabl romney never say give inform without bia',0,1
+0,pro_romney,137,'anhqdc presid clinton feel presid obama throw wife bu still campaign ? ? ?',0,0
+1,pro_obama,92,'triciajjon inamaziarcz word grifter perfect romney obama2012 forwardnotback !',0,0
+2,pro_obama,85,'compos new tweet lyndsey lohan also support romney didnt use support bush ?',0,0
+1,pro_romney,126,'weeklystandard obama amp biden prove dont listen anyon unabl work togeth make terribl leader ! !',0,2
+0,pro_obama,74,'romney awol gov nytim massachusett governor romney wa often away',0,0
+0,pro_obama,126,'mikeepps___ romney becom presid gone start read term amp condit might fuck around amp b',0,1
+0,pro_romney,61,'chucknelli romney rock ohio momentum tcot! !',0,0
+0,pro_romney,68,'edwscott addinfoorg obama ha tie compani romney',0,0
+0,pro_romney,100,'save america stop obama secular socialist newt gingrich glennbeck rushlimbaugh book tcot',0,0
+0,pro_romney,128,'karlrov obama didnt give 716 billion save medicar loot medicar money obamacar joebiden got backwa !',0,0
+0,pro_romney,74,'fewer qualm gun right group romney san francisco chronicl',0,1
+0,pro_obama,77,'sierrabeckham opinion black obama crime appar',0,2
+2,pro_obama,101,'good read joan_vennochi massgovernor fail lead hi state promot obama mapoli',0,1
+0,pro_obama,86,'must see video romney bain sell american worker china via youtub sensata!',0,0
+0,pro_obama,77,'rt_com tobacco lord romney made million sell smoke number one foe',0,1
+0,pro_romney,117,'girl sell pastri rais money obama thi might way girl start career polit',0,0
+1,pro_romney,132,'keder seem like obama admin angri romney call libya incompet actual event',0,2
+2,pro_obama,74,'thatlittletyg support gay marriag ignor support romney',0,1
+1,pro_romney,129,'chadowenbrand teach ld movement tonight could get interest believ vote romney !',0,0
+1,pro_romney,109,'mrsvercrous nba star greg anthoni back mitt romney nevada via sharethi awesom black ex obama voter !',0,0
+0,pro_romney,131,'arianna8927 today mom church john bolton speak danger obama israel gave romney',0,1
+0,pro_obama,78,'path2enlighten mitt romney privat profit social loss sensata',0,1
+1,pro_obama,101,'mtomaski new blog post romney six studi back hi tax plan right via thedailybeast',0,0
+0,pro_obama,117,'metafrant mikkoalann day befor elect romney bain sensata close job sent china',0,0
+0,pro_romney,130,'soopermexican think romney respons compani left 12 yr ago obama isnt past 4 yr economi',0,0
+0,pro_romney,114,'juliagulia614 ye obama inherit budget 4 yr ago made wors sorri oblam fire tcot!',0,2
+1,pro_romney,121,'robdelaney fun fact 1 amp job creator amp p 500 nineti one percent sinc obama took offic 91 rt ;P',0,0
+0,pro_obama,69,'charact obama america tv ad via youtub obama2012 ohdem ohdem',0,0
+0,pro_romney,90,'benlabolt former romney senior aid say romney say anyth close deal',0,0
+0,pro_obama,78,'docrocktex26 ouch j3283 hmmmm romney attack hi father longtim aid',0,0
+0,pro_romney,50,'obama lie coal miner 27 state via youtub',0,1
+1,pro_obama,61,'pressur american expect obama win second debat bigtweet',0,0
+0,pro_romney,85,'amber_neckhol dear obama morgan freeman narrat commerci cheat',0,1
+0,pro_obama,136,'pre obama gave hi wife hi speech front world yall girl cant even get yo bf put hi twitter bio',0,0
+1,pro_obama,74,'mitt romney obama ha vote four year im fire amp readi go',0,0
+0,pro_romney,115,'frankacecolwel presid obama ha 15 actor musician hi side mitt romney ha 80m american hi side',0,0
+3,pro_romney,139,'today work walk middl republican guy rant import wa romney win elect cowork',0,1
+1,pro_obama,110,'band make danc stamp make twerk romney becom presid hoe work',0,0
+0,pro_romney,27,'florida romney 51 obama 47',0,0
+0,pro_obama,128,'imonsterhook matthewxfam actual true romney ha chang hi word mani time cant even begin say',0,0
+0,pro_obama,129,'michaeldollar romney learn hi father fail bid presid becaus georg told truth mitt becam liar hypocr',0,2
+0,pro_romney,113,'dear pre barackobama arent get romney vote amp doubt get candi speak peopl debates!',0,1
+0,pro_romney,83,'obama ga price hypocrisi via sharethi dam media complaint ?',0,2
+0,pro_romney,80,'wegot romney final reveal hi tax plan unbeliev http co xqngyf4t',0,1
+0,pro_obama,58,'rossrantsdotcom question aris romney babi toss',0,0
+0,pro_romney,98,'romney 10840 point beat obama far 25trend elect 2012 analys debat tcot p2 sensata',0,0
+2,pro_romney,139,'chucktodd well wont get ccrowli co opt town hall debat help obama romney gop et al ought 2 tell fuck',0,1
+0,pro_obama,99,'silvinhouzumaki get f ck romney shirt way tell em realli feel order one at!',0,0
+1,pro_romney,130,'said obama go come feisti thi next debat mr obama might allow snicker bar thi onc',0,0
+0,pro_romney,98,'liber much less like say obama lost thi debat even doe see jonathanchait item',0,1
+0,pro_romney,81,'bretbaier charles_alvino watch candi obama woman veri bia',0,1
+1,pro_romney,85,'like obama becaus black ignor hate romneyryan2012',0,2
+0,pro_obama,50,'si said romney deserv bu driver uppercut',0,0
+0,pro_romney,116,'onli thing dont agre obama care mainli reason tweet deal tuition',0,0
+0,pro_obama,106,'kozeni_ funni much romney know obama money know next noth hi debate!',0,1
+1,pro_obama,118,'qtiptheabstract wow obama veri presidenti score big time romney doe moxi thi job! !',0,0
+2,pro_obama,92,'sincerelytumblr jealou becaus obama smart sexi mitt romney',0,1
+0,pro_obama,28,'space_jams11 obama face lol',0,0
+1,pro_romney,43,'ratchet2english obama fav romney !',0,0
+1,pro_obama,127,'senjohnmccain mittromney barackobama couldnt disagre potu domin debat romney im fire vote obama',0,1
+0,pro_obama,131,'carolannnolan romney fought speak time fightforjob obama repeat rhetor 2008 hasnt deli !',0,1
+0,pro_obama,131,'burniemaccc fuck guy actual think tell women uteru mitt romney dont know shit?',0,2
+0,pro_obama,131,'davidlimbaugh cours mitt 2 tri 2 put hi foot sometim would walk obama interrupt pro',0,0
+0,pro_obama,43,'alanzweibel mitt romney snake oil salesman',0,0
+1,pro_obama,70,'ibusdriverho peopl onli like obama motto romney p l',0,0
+0,pro_obama,107,'tumblr beat romney ground peopl make gif minut live stream _',0,0
+0,pro_obama,90,'thinkprogress romney 2003 coal creat job kill peopl debaterecap',0,1
+1,pro_obama,42,'ronnieradk romney look like georg bush',0,0
+1,pro_obama,131,'per chrismatthew romney lack defer offic presid somebodi remind presid king',0,1
+1,pro_romney,64,'redstat candi crowley admit romney wa right libya rs tcot',0,0
+2,pro_romney,127,'jamieg cb poll romney win 65 34 economi cnn poll romney win 54 40 economi 49 46 health care 51 44 tax 59',0,0
+0,pro_romney,37,'_alexsanchez romney 2 obama 0 debat',0,0
+1,pro_romney,131,'thi gal enjoy see real man cut arrog ass obama size ha coddl long tire lie',0,3
+1,pro_obama,90,'mayorchuka cnn check cnn poll debat winner obama 46 romney 39 africaninvestor',0,0
+2,pro_obama,129,'nicholsnyc pretti sure romney said energi independ 5 year tonight vs 4 year first debat hear right ?',0,0
+1,pro_obama,73,'rt cnbc survey result think debat obama 56 romney ?',0,0
+0,pro_obama,109,'antijokejam bet mitt romney wa kid class remind teacher homework last night',0,0
+0,pro_obama,46,'obama2012 trend got romney ! ?',0,0
+0,pro_romney,106,'rewind obama walk toward crowley help translat intervent f amp f blow romney pathet !',0,1
+0,pro_romney,129,'charliedaniel person thought obama got back corner last night never answer question romney ask',0,0
+0,pro_obama,123,'blindperspectiv second presidenti debat mitt romney fail launch foreign polici attack barack obama libya',0,2
+0,pro_obama,102,'kingsleyyy romney kingsley kingsley need respond need sit fuck',0,1
+0,pro_obama,129,'ladygaga anybodi els hear romney mic feedback obama said wouldnt taken sketchi deal neither sho',0,1
+0,pro_obama,132,'cpdutah danger email go around subj cnn break news mitt romney almost presid get thi delet htt !',0,2
+0,pro_romney,40,'romney secret blowout via breitbartnew',0,0
+0,pro_obama,128,'barackobama potu last night gov romney took anoth stab tri sell us hi 5 trillion tax cut favor wealt',0,1
+1,pro_romney,125,'weeklystandard gallup romney 51 obama 45 gallup week long track poll like voter find mitt romney lead',0,0
+0,pro_obama,68,'thedailybeast pressur obama deliv romney sputter',0,0
+1,pro_obama,130,'isupportobamabecaus romney parti loot social secur hide tax cut rich check reagan amp greenspan amp socsec',0,0
+1,pro_obama,43,'stacey dash weird ass support romney huh',0,1
+0,pro_obama,67,'marko romney dodg immigr talk obama pension ?',0,0
+0,pro_obama,137,'mitt romney say went got binder full woman becom part hi cabinet yet research came drum roll lie',0,1
+1,pro_obama,105,'serious peopl support romney ha plan ha manner complet liar debate?',0,1
+1,pro_obama,131,'thedailyedg romney onli got excit hi bindersfullofwomen becaus thought could get away pay 77c th',0,0
+1,pro_obama,127,'johnfugelsang respect gov romney binder full women men keep stuff extern hard drive',0,1
+0,pro_romney,132,'american1st mitt romney move hi entir offic ny help find worker daughter one know deepli mitt romney care ab',0,0
+0,pro_obama,46,'soonergrunt romney depressingsitcom',0,0
+1,pro_romney,116,'joanwalsh tagg romney want take swing obama tommi thompson son would send back kenya classi',0,0
+0,pro_obama,128,'mitt romney disrespect obama floor debat wa red meat racist base vote mitt vote hate',0,3
+0,pro_romney,64,'kevinmaddendc obama cede futur romney cantafford4mor',0,0
+0,pro_obama,66,'damonlindelof obama call dad liar would punch dad',0,2
+1,pro_obama,109,'mitt romney ha plan one point plan america give rich keep middl class dont put',0,0
+1,pro_obama,110,'dude back talkin bout vote romney whisper cuz know im vote obama smh like care',0,0
+0,pro_romney,129,'socallynn dont distract thi binder crap anoth bigbird dont analyz fact obama lie libya',0,2
+0,pro_romney,55,'rasmussenpol swing state track romney 49 obama 48',0,0
+1,pro_romney,52,'loudobbsnew welfar depend obama hallmark',0,0
+0,pro_obama,75,'wait romney actual ha chanc becom presid im move canada',0,0
+1,pro_obama,65,'romney look strong ohio landslid ohio goe romney',0,0
+0,pro_obama,121,'fact checker _ikenna_ 580 000 women romney say lost job obama term wa lie wa actual 83 000 !',0,2
+0,pro_obama,57,'go vote romney come smell truth ? !',0,1
+1,pro_obama,102,'let fair obama elector map show romney ahead wrong onli show 50 state 57',0,1
+1,pro_obama,57,'nbcpolit poll obama hold hi lead iowa wisconsin',0,0
+0,pro_obama,131,'romney say dure debat want level play field china 2 stp currenc manipul fact every1 manipul ? !',0,0
+0,pro_obama,75,'romney told 31 lie 41 minut wa talk dure 2nd debat',0,1
+1,pro_romney,67,'donstoryjr mitt romney excel job tonight romneyryan2012',0,0
+0,pro_obama,95,'preciousliberti deficit gdp ratio reagan 4 2 bush sr 4 2 clinton 0 5 bush jr 2 7 obama 8 9',0,0
+0,pro_obama,61,'captivatingnew romney fade take gop senat hope hi',0,0
+0,pro_romney,94,'iresistal lockhe accept cash bribe obama announc layoff electio',0,0
+0,pro_obama,69,'ariberman name richard hay pick mitt romney trash',0,1
+0,pro_romney,109,'obama first presid appli colleg aid foreign student deni wa foreign',0,1
+1,pro_romney,47,'debsaun1 volleybal mom know better obam',0,0
+0,pro_obama,121,'swaggoutdanni vote obama f ck romney vote obama f ck romney vote obama f ck romney vote obama f ck romney gt gt retweet',0,0
+0,pro_obama,34,'ukraine07 romney idiot mate',0,1
+2,pro_romney,68,'repli barrack obama like potato hi golden retriev steak',0,0
+0,pro_obama,101,'phijohnny31 closer elect get romney make fool nationwid',0,1
+1,pro_obama,39,'obama need like 2 termmmmmzzzz !',0,0
+1,pro_obama,128,'echemadubuik mitt romney win elect volunt tribut hunger game debate2012 presidentialdebate2012',0,0
+3,pro_romney,66,'laxgoalie1 obama look like monkey wonder want win',1,0
+0,pro_romney,38,'khaledholm romney 1 obama goos egg',0,0
+0,pro_obama,89,'dragonflyjonez made list whi im vote obama vote romney',0,0
+0,pro_obama,106,'glorybieb vote obama becaus tour white hous got portrait justin w l l',0,0
+0,pro_obama,104,'freewoodpost oil discov sesam street mitt romney call much fund need',0,0
+2,pro_romney,131,'team obama prefer talk libya fast furiou tomorrow get news covererag hi loss tonight debate2012?',0,2
+0,pro_obama,132,'ispeakcomedi presid obama mitt romney alot talk nobodi spoke problem bag chip 80 air',0,1
+0,pro_romney,132,'oldhead1 presid obama wa presid tonight romney wa wa wa might alway draft !',0,0
+3,pro_obama,133,'daniellavan logic wayyy beyond term polit good tri though rich henc whi favor romney basic',0,0
+0,pro_romney,74,'cant listen read anyth obama say ignor unnerv',0,2
+1,pro_obama,133,'got nra email announc endors romney ryan ticket total shock idea make thi develop',0,1
+2,pro_romney,128,'jeffdunham walter obama debat serious havent seen brother lose hi smooth fast sinc cuba good jr',0,1
+0,pro_romney,68,'obama fals claim ha plan cut 4 trillion defici',0,1
+0,pro_romney,103,'stop listen pandora erect becaus obama ad getouttaher',0,0
+0,pro_obama,55,'jawa teacher berat student wear romney shir',0,0
+1,pro_obama,129,'wolfblitz alivelshi cnnsitroom imparti expert say number dont add amp obama support bl',0,0
+0,pro_obama,127,'_fuckmittromney nicki minaj vote romney ass isnt even american cant vote lmao stop take song liter',0,0
+0,pro_obama,130,'_mytwitrnam yall pleas rememb mitt romney said want get rid martin luther king jr day becaus irrelev',0,1
+0,pro_romney,124,'obama wa debat least tri highlight point hi plan broke mitten kept take jab',0,1
+1,pro_romney,85,'bradmd tonyzump im sorri peopl obama socialist fairi tale ha happi end',0,1
+0,pro_romney,24,'man name mitt lma! !',0,0
+0,pro_obama,107,'raybeckerman sanacardi bust gt lie hereditari romney famili wa 8 5b ponzi scheme 2009',0,1
+0,pro_obama,59,'mattison rt turbokitti romney distort truth green job',0,1
+1,pro_romney,101,'ebrew79 never like obama high road approach time dure primari cont',0,0
+0,pro_romney,108,'new yorker eastwood cover featur mitt romney debat empti chair instead presid obama tco',0,0
+0,pro_romney,48,'babygirlsomajor lmaooooo hell nah cowboy obama',0,1
+0,pro_obama,82,'252nc_made fuck go mitt romney yall realli arent shit !',0,2
+1,pro_obama,132,'obama goe much much deeper dsouza analysi dineshdsouza believ obama serv interest new world order crowd',0,0
+0,pro_obama,128,'dgtaywitdahand mitt romney becom presid gone start read term amp condit cu might fuck arou',0,1
+1,pro_romney,133,'wonder ppl knw tht ur old person w thi obama care ur basic go die sinc doctor b requir take younger',0,1
+0,pro_romney,50,'romneycampaignin3word romney presid ! ! !',0,0
+0,pro_obama,58,'fricken funni zachbraff romney fart young girl',0,1
+0,pro_romney,114,'bbcnewsu sesam street produc urg obama campaign stop use bigbird advert attack romney pb stanc',0,0
+1,pro_obama,123,'iamthewindowman wa marin alway marin rais hand 2 defend amp protect thi nation mr obama',0,0
+1,pro_obama,128,'seek meaning volunteer cleveland weekend prior elect need contact person websit obama2012 women2012',0,0
+0,pro_obama,44,'damn everi bumber sticker see say romney',0,1
+0,pro_romney,88,'keetoherheart ive sayin f ck romney forev lol shirt say got a!',0,0
+0,pro_obama,71,'mitt romney hide hi tax return break law ? ?',0,1
+0,pro_romney,19,'lmfao obama bitch',1,1
+0,pro_obama,125,'thedailyedg mitt romney declar war women breastcancerawarenessmonth dont think govern fund',0,0
+0,pro_obama,125,'mr2ratchet romney becom presid go start read term amp condit might fuck around',0,1
+1,pro_obama,118,'fuck funni popular tumblr post time mitt romney suck pass itstru soproud',0,3
+1,pro_romney,129,'hilari team obama alreadi spin biden debat loss say ryan lie believ fraud anymor anyway ?',0,2
+0,pro_obama,37,'4mbrie bet mitt romney wear croc',0,0
+1,pro_romney,99,'stephen_taylor final mattklewi lindsay lohan switch hors endors mitt romney presiden!',0,0
+0,pro_romney,57,'obama onli spread leg thi f ck ?',0,0
+0,pro_obama,62,'diggapedia whi vote mitt romney neither sh',0,0
+0,pro_obama,130,'byronnm romney get tax break send freeport il base sensata china chines flag fli compani w',0,1
+0,pro_obama,128,'ayeitstaylor_ mitt romney said borrow money parent colleg bitch cant even get 5 mom make',0,1
+2,pro_romney,128,'richardgrenel former sun micro ceo romney gt scottmcneali bloombergtv need econom freedom insur person freedom',0,0
+1,pro_obama,46,'hawaii prep school gave obama window succ',0,0
+2,pro_romney,78,'stroamazin favorit romney retweet obama let see win thi shit',0,1
+0,pro_obama,92,'daili ko open thread night owl mittromney hi account dont talk suuuuurrrrrr?',0,0
+1,pro_obama,125,'cletisstump napoleon met defeat waterloo let make sure romney meet hi sensata sourcer chief must exp',0,0
+1,pro_obama,39,'thelifeofjosh_ dont like mitt romney',0,0
+0,pro_romney,127,'neiljedmondson obama mother die food stamp hi brother live 1 day romney donat 2 3 million chariti last',0,1
+1,pro_romney,125,'seanhann saw bretbaier ask voter whi support mittromney said romney realli want job true obama doesnt ev !',0,0
+0,pro_obama,111,'coward care amp detail boneknightmar leak debat agreement show obama amp romney snivel coward',0,1
+0,pro_romney,61,'sam_pem waystogetshot wear mitt romney shirt ghetto',0,1
+1,pro_obama,108,'todd akin mitt think im crazi senat hell paul ryan readi vp waronwomen ?',0,2
+0,pro_obama,125,'woodhouseb greenhousenyt washpo factcheck give 4 pinocchio romney claim hi job plan creat 12m job htt',0,0
+0,pro_obama,96,'leclemot presid clinton explain mitt romney plan huge tax break millionair',0,1
+1,pro_obama,135,'dabitti beachpeanut ericboehlert mmfa right first debat romney total chang everi posit anyon could make sens lie',0,1
+0,pro_obama,118,'romney know much oil obama snake oil sell us whole campaign debat debates!',0,0
+0,pro_romney,134,'polishcunt obama ha ran thi countri 4 year shit hole ha ever mean let open eye',0,1
+1,pro_obama,129,'chrisrbarron toughest decis polit life end stake high whi thi libertarian vote romn',0,0
+1,pro_romney,138,'pleas write cnnpolit demand apolog moder help obama cover lie call benghazi act terror !',0,2
+1,pro_romney,49,'dcexamin romney wa right libya exchang',0,0
+2,pro_romney,118,'georgevhulm reformedbrok everi time obama say phrase fair share libertarian angel ha hi wing rip',0,1
+0,pro_romney,111,'romneyrespons onli obama lie mammogram plnd parenthood hi administr cut mammogram',0,1
+0,pro_obama,112,'followmeobama vote obama fuck romney vote obama fuck romney gt gt gt gt gt gt gt gt gt gt gt gt gt gt gt gt gt',1,2
+1,pro_obama,132,'barackobama presid obama know women make less men work threaten econom secur entir',0,0
+1,pro_obama,52,'billbateman1 honey boo boo endors obam:)',0,0
+0,pro_obama,71,'bobbryor mitt romney gonna rais price band merch pass',0,0
+0,pro_romney,138,'mitt im give job young man go give women hour earli go home cook lol pander chief edshow! ! ! !',0,0
+0,pro_obama,130,'political_bil romney idea reach across aisl work democrat wa privat elev state hous',0,0
+2,pro_obama,131,'davidaxelrod romney support blunt amend senat hand employ right deni contracept care insur b',0,2
+0,pro_obama,89,'hey romney dont see hate outsid whitehous cant even get ! !',0,1
+0,pro_obama,130,'michaeldollar mormon women report horror stori romney serv mormon bishop life save abort',0,0
+0,pro_obama,86,'huffpostpol watch live bruce springsteen bill clinton campaign presid obam',0,0
+1,pro_romney,98,'yep myz_h real senorprepotent john glen republican endors obama oh shit! ? ! ? ? !',0,1
+0,pro_romney,106,'trogadoru chang vote romney obamadebt kill futur gener barackobama debat obama romn',0,1
+0,pro_obama,129,'teapartycat mitt romney ceo tell employe think vote employe yearn live dictat',0,0
+0,pro_obama,64,'jonahhil think im gonna slutti mitt romney halloween',0,0
+0,pro_romney,104,'obama lie american die libyan attack wa botch kidnap trade wtc bomb blind sheikh post',0,4
+1,pro_obama,130,'hemin forget mitt romney id like see bruce springsteen tax return befor someon tri shove hi work class shtic',0,0
+1,pro_romney,64,'liber paper endors romney time anoth chang mitt romn',0,0
+0,pro_romney,53,'sorri michel obama molli america first ladi',0,1
+0,pro_obama,130,'adamlevin romney america one terrifi prospect could possibl imagin urg take closer look',0,0
+0,pro_obama,64,'valeriejoseph92 massachusett hate romney mull',0,1
+0,pro_romney,54,'quentinhart reason whi romney presid gt',0,0
+2,pro_romney,96,'say though incred pleas romney perform overal debat lynndeb',0,0
+0,pro_obama,118,'rolandsmartin romney talk sanction iran obama ha alreadi put place thi utter nonsens !',0,1
+1,pro_obama,55,'bj0252 iamheathert mitt romney babbl like ramona',0,0
+0,pro_romney,134,'id rather move north korea live countri obama presid anoth four year notkid actuallyiam romney2012',0,0
+1,pro_romney,90,'jerryazumah except obama joke like guy run hopeless 04again',0,2
+0,pro_obama,128,'lukewearechang obama amp romney joke amp clown pander idiot justifi vote caus',0,2
+0,pro_romney,107,'macrang obama threw ship builder virginia bu tonight along biden tcot lynndeb',0,0
+0,pro_obama,113,'clayton_ward15 appar mitt romney use hi hand much talk concern lol',0,1
+2,pro_obama,129,'nancywond mitt romney campaign 25 million debt thi guy cant manag hi campaign rich dont trust give directli ?',0,1
+0,pro_obama,46,'cnn obama 48 romney 40 cb obama 53 romney 23',0,0
+1,pro_romney,130,'slackadjust guess still school live home food stamp obama phone want free stuff mayb 18 ?',0,0
+0,pro_obama,113,'stage barack michel last night wa probabl black peopl romney ever around',0,0
+0,pro_romney,129,'nickcannon know drug dealer 2 strike said would never vote romney fool cant vote ani damn way lol pa !',0,2
+0,pro_obama,94,'pleas de friend plan vote mitt romney put nail civil r',0,0
+0,pro_romney,108,'cgpb amp cannot deni obama lie american public amp 4 american die potu lie',0,4
+0,pro_obama,114,'simonhelberg twitter avatar hold giant dead fish dont need hashtag romney impli',0,1
+0,pro_romney,97,'toddkincannon obama knew libya wa terrorist attack flew parti vega anyway ?',0,1
+2,pro_obama,47,'news obama romney talk peac pois wa',0,0
+0,pro_obama,91,'whi receiv bunch elect mail republican im regist democrat ?',0,0
+0,pro_romney,101,'walterdalton quit say start say republican gener assembl',0,0
+2,pro_romney,132,'tulsigabbard advertis work across parti line becaus im support im republican navi gonavybeatarmy!',0,0
+0,pro_romney,70,'ghettoenglish obama call romney governor translat lil n gga',0,0
+0,pro_romney,109,'theteaparty_net agre clint next obama term hi last tcot tlot teaparty!',0,0
+0,pro_romney,46,'romney fundrais plan thursday hong kon',0,0
+1,pro_obama,126,'dabieberdimpl scooter everyon greet obama handshak amp pleasur meet mr presid came bieber turn',0,0
+1,pro_obama,100,'thinkprogress romney refus provid accur birth certif children sex parent',0,1
+1,pro_obama,115,'nbcnew colin powel endors obama second term cite presid effort afghanistan tackl terrori',0,0
+1,pro_obama,62,'kenineastman love obama columbia lol part_deux heh! !',1,0
+0,pro_romney,71,'wagnergirl obama kill osama funni dont rememb see there?',0,2
+0,pro_romney,131,'ewerickson obama put ad compar vote lose ur virgin hi problem mani treat 2008 1 night stand',0,2
+0,pro_obama,99,'new blog post wait air forc one presid obama america forward tour cleveland ohio!',0,0
+0,pro_obama,52,'barackobama mr obama sir vote ! ! ! ! ! !',0,0
+0,pro_obama,130,'billmah im tire everi republican politician medic supergeniu vagina want hear gynecologist talk',0,1
+1,pro_obama,89,'fivethirtyeight obama 72 win elector colleg tonight 538 forecast 71 yesterday',0,0
+0,pro_obama,83,'radiopakistan pakistani commun chicago favour obama us presidenti poll',0,0
+0,pro_romney,66,'said vote mitt romney thi nigga said dude kill yoself',0,1
+1,pro_romney,47,'sun sentinel endors mitt romney presid',0,0
+0,pro_obama,70,'thedemocrat romney mormon mormon think women sex slave !',0,1
+0,pro_obama,66,'liberalcanuck presid obama morningjo monday ! !',0,0
+0,pro_obama,130,'tuxcedocat mitt romney danger ignor irrespons lie ha valu posit appear wil',0,3
+0,pro_obama,52,'want romney die hurricanesandi sorrynotsorri',0,1
+0,pro_romney,80,'rightcandid obama run al qaeda call muslim kidnap western',0,0
+0,pro_romney,91,'vote romney caus american bow one fear noth save live let die',0,2
+2,pro_romney,96,'jilevin think progress anti busi obama best presid corpor profit sinc 190',0,0
+2,pro_romney,131,'jedediahbila liber excit new york time endors obama kid shock news obama vote',0,1
+0,pro_romney,108,'iamgbj11 im romney guy even call thi ignor mention wrote instead',0,1
+0,pro_obama,133,'kylejberub u say bloodi romney 3 time mirror w light mitt romney pop mirror take away basic',0,1
+0,pro_obama,58,'mikeav thi weather mitt romney shit bullshit!',0,2
+0,pro_romney,94,'dphaw wish could vote romney twice know onli reserv democrat',0,0
+0,pro_obama,100,'ahurricanesandi lol threw priu field cuz bitch romney 2012 bumber sticker',0,1
+0,pro_obama,131,'thedailyedg much contempt doe romney ohio worker jeep say lie ohioan move china romney ?',0,2
+0,pro_romney,129,'literallyfedup 7hoursofhel beg help wait obama send calvari betray sit presid',0,1
+2,pro_romney,122,'kesgardn paper endors obama 2008 wrong thi year endors republican mitt romney presid',0,1
+1,pro_romney,102,'whiteshot hi dan thank follow look forward tweet great week go romney !',0,0
+0,pro_obama,61,'elect take care next week obama sandi',0,0
+0,pro_obama,46,'_obeyashle obama nut romney ass',0,0
+0,pro_romney,45,'m_mcaulay 5 reason vote romney obama',0,0
+1,pro_romney,128,'kingsleyyy go stand middl traffic realdonaldtrump obama stand puddl act like presiden ?',0,0
+0,pro_romney,119,'pearly2004 youv got watch thi video weapon go al qaeda help obama hell go on! !',0,1
+0,pro_romney,131,'wowfactsoflif presid obama wa known heavi marijuana smoker hi teen colleg day hi nicknam use barack',0,0
+1,pro_obama,118,'dudette9t9 veteran whose son serv afghanistan share whi support pre obama amp keep va blu',0,0
+2,pro_obama,135,'kattwillliam mitt romney look like dude elev act like doesnt see come let fuck door close',0,1
+2,pro_romney,121,'obama liber act like theyr replac ineffect obama new improv obama failur',0,2
+0,pro_obama,37,'martin sheen romney stupid arrogan',0,1
+0,pro_romney,94,'annie_bannani voiceofapatriot tell geraldo unlik obama dont apolog terrorist',0,0
+1,pro_obama,130,'borowitzreport republican go abraham lincoln teddi roosevelt mitt romney wonder dont believ evolut',0,0
+4,pro_romney,119,'wow amaz poll shot like rocket florida give mitt romney huge 57 lead everi minut see growth ! !',1,0
+1,pro_romney,108,'stevegerritsen romneyryan2012 bu co live tweet see thi former obama support romney',0,0
+0,pro_romney,86,'govchristi play obama laugh call charli crist sad',0,1
+2,pro_obama,119,'augrad1997 pecosroybean omg maggot brain ugh fuck u cant wait make fun obama win',0,2
+0,pro_romney,88,'lfrankurban rupert murdoch chri christi must declar mitt romney take blame',0,1
+0,pro_obama,129,'theonlydjqual everyon els find inner empow black woman amp vote reelect obama thi tuesday fear count',0,1
+0,pro_romney,68,'noelsheppard freudian slip candi crowley call presid romney',0,0
+0,pro_obama,76,'black grassroot activist protest obama fundrais citi hall amp abc7chicag',0,1
+1,pro_obama,119,'luvthafunk everybodi still need 2 vote 2 make happen susiefierc ooh nate ha obama chanc win 85 1 0',0,0
+0,pro_romney,87,'denni miller slam obama libya reveng remark stink hi job nasti guy',0,3
+1,pro_obama,127,'barackobama presid obama matter tough time thi togeth rise fall one nation one peo',0,1
+0,pro_romney,129,'cuban born john sununu former gov nh say obama born hawaii learn american understand ?',0,0
+0,pro_romney,118,'xgirlnyc homedepot founder said obama voter shot say romneystench base hate fail',0,2
+1,pro_obama,60,'shaundross mitt romney might well vote obama ! !',0,0
+0,pro_obama,67,'lolgop mitt romney presid would disast countr',0,1
+0,pro_romney,98,'ye obama threaten judeo christian valu gop cherrypick squash healthcar educ equal',0,1
+0,pro_romney,57,'sh_tnobody_say hope mitt romney becom presid ! !',0,0
+1,pro_obama,68,'thetimmytebow im predict obama take earli lead tomorrow',0,0
+0,pro_romney,41,'let move forward get rid obama',0,0
+0,pro_obama,41,'republican vote presid obama',0,0
+1,pro_obama,55,'uoy_kcuf_ romney win im move philippin',0,0
+2,pro_romney,128,'yap onli one tlmakehersayay onli one confid obama win thi elect ? ?',0,0
+0,pro_obama,24,'lilkeith95 rt obama',0,0
+1,pro_obama,63,'_itweet_random romney win drop mic play riot 2 chainz',0,0
+1,pro_romney,95,'republicangop america voic heard loud clear dure elect 2012 byebyeobama',0,1
+1,pro_obama,94,'peopl vote obama job republican get work tweet irrelev',0,1
+0,pro_obama,27,'iam_breezyj vote obama :)!',0,0
+1,pro_obama,128,'thedailyedg ran pari dure vietnam pioneer outsourc china bank switzerland romney biggest talent b',0,0
+0,pro_romney,98,'bigdev55 retweet 2 thing fals haha im republican get votewhite!',0,1
+0,pro_obama,133,'jess_me_at_six poll open onli matter hour thought peopl actual vote romney petrifi',0,0
+1,pro_romney,58,'fortyninerlov gtotheanb ladydi0723 god bless romney 2012',0,0
+0,pro_romney,130,'x3500cocox vote tomorrow select democrat befor u select obama u obama remov ballo',0,0
+0,pro_romney,79,'kesgardn iowa may tip mitt obama path 270 get harder gt',0,0
+1,pro_obama,85,'lemmi romney perfect world would grant 100 obama motorhead',0,0
+0,pro_romney,45,'mitt romney flip flop rise ocean',0,0
+1,pro_obama,126,'mmflint rise amp shine go take obama elect day photo tweet 2012photo amp ill post si !',0,0
+1,pro_obama,40,'avb_jld id b devast romney win',0,1
+0,pro_obama,89,'rsantiagohudson wa us citizen would sure vote obama finger cross ;)',0,0
+0,pro_romney,59,'would yall rather vote romney vote lol',0,0
+0,pro_obama,133,'theyluv_jazzi vote obama vote obama vote obama vote obama vote obama vote obama vote obama vote obama vote obama vote obama vote',0,0
+1,pro_obama,126,'_beautifultric obama 3 becaus mani idiot post pic instagram etc pleas smart thi !',0,1
+0,pro_obama,48,'hope barack obama stay presid america',0,0
+0,pro_romney,102,'45_shawdi go obama cnt rememb da nigga name fuckem presid still black ! ! ! ! ! ! !',0,0
+1,pro_romney,100,'saw tweet say age 13 17 could vote obama would win million areyoudumb gotoschool',0,0
+0,pro_obama,124,'fckyou_imflyy romney talk obama obama talk nation romney say obama say pay attent small',0,0
+0,pro_obama,45,'cooolasfukk whi vote romney lmao',0,0
+2,pro_obama,126,'supreme_corttt yo go anywher mitt romney win go wake ass morn amp go work',0,0
+0,pro_obama,50,'iimneek mann ii want move forward obama',0,0
+0,pro_obama,126,'echemadubuik romney talk obama obama talk nation romney say obama say pay attent',0,0
+1,pro_obama,48,'think obama win florida realli hope',1,0
+0,pro_obama,54,'_______vanilla imsickof romney ugli self teamobama',0,1
+1,pro_obama,77,'jacobjewels_ ohio florida virginia show favor toward obama pleasssseee',0,0
+2,pro_obama,109,'niggastewstew romney win im move ______ gon stay broke ass right shut fuck',0,2
+0,pro_obama,35,'florida need vote obama ! !',0,0
+0,pro_romney,83,'im sorri tweet anyth obama ohana rhyme gay shit',0,2
+0,pro_romney,74,'harpergain obama anti christ world end thi year shitti',0,0
+1,pro_obama,126,'darkskin block unfollow report spam tell ya mama aint sh whatev like presid barack ! !',0,0
+1,pro_romney,104,'wanna know screw world gonna end caus obama tellm justtellme?',0,1
+1,pro_obama,45,'obama victori tweet blow news feed',0,0
+1,pro_obama,103,'jordyn_ashle realli wanna see romney gonna final respect obama hi speech',0,0
+3,pro_obama,124,'ayankhayro mitt romney said cant afford colleg school isnt well mitt cant win elect pre',0,0
+1,pro_romney,85,'jamaineb92 obama famili beauti famili go histori ! ! !',0,0
+0,pro_romney,32,'dont care america obama',0,0
+1,pro_obama,56,'bbcbreak watch presid obama victori speech ful',0,0
+2,pro_obama,103,'justinbieb alot emot right congrat presid obama im canadian im good freehealthcar :)',0,0
+1,pro_obama,10,'obama win',1,0
+2,pro_obama,19,'thank god obama',1,0
+1,pro_obama,14,'obama winner',1,0
+1,pro_obama,59,'saranjaymanohar obama obvious better manag america',0,0
+1,pro_obama,54,'presid win elect write us letter',0,0
+2,pro_obama,126,'tnyfrontrow differ clear romney call ann best choic ive ever made obama call michel woman agre',0,0
+2,pro_obama,132,'chriscuomo 2term good luck presid obama hope respond need exist polit peopl prioriti',0,0
+3,pro_obama,128,'excit elect wa success still astound number peopl actual vote romney',0,0
+1,pro_obama,35,'kimsthoughts_ happi birthday obama',1,0
+0,pro_romney,41,'sadicecreamflavor hitler obama billboar',0,0
+1,pro_romney,120,'earth merakyat barrack obama earth person wonder american vote elect',0,0
+1,pro_romney,127,'kariixjet dear barack know u puppet im give u prop lie public like aint noth amp l',0,2
+0,pro_romney,127,'beardedston irrat obamaphob billionair match gave romney toward nation debt',0,2
+1,pro_obama,129,'realdonaldtrump russian leader publicli celebr obama reelect cant wait see flexibl obama',0,0
+0,pro_romney,119,'_yeoruru yeah hyoyeon cut saw last week got dead iy2 cut said obama last name dead',0,2
+0,pro_obama,121,'kattwillliam obama rhyme ohana ohana mean famili amp famili mean nobodi get left behind mitt rhyme shit',0,1
+0,pro_obama,130,'toconserv nov 8 conserv updat boehner creat job mcromney never releas hi tax return racist still hate oba',0,3
+0,pro_obama,124,'againstteaparti vote obama democrat parti major congress chang thi via peopl upris !',0,1
+1,pro_obama,63,'lt know obama give free ride life',0,0
+0,pro_romney,131,'clamswan obama think patreu exercis poor judgment affair clinton campaign dure elect pr',0,1
+1,pro_obama,92,'ap ap race call obama win florida top romney final elector vote talli 332 206',0,0
+0,pro_obama,65,'romney campaign foxnew shameless exploit benghaz',0,2
+1,pro_romney,125,'know citizen chicago feel ive lost trust govt obama fbi cia eric holder hillari ambassador rice panetta etc',0,1
+% 
+% 
+% 

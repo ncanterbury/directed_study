@@ -1,0 +1,23 @@
+arff_file: arff_files/NEW_DEMO_ARFF.arff
+attributes:
+  mention_romney:
+    multiple: false
+    value:
+    - NUMERIC
+  negative_words:
+    multiple: false
+    value:
+    - NUMERIC
+  sentiment:
+    multiple: true
+    value:
+    - pro_obama
+    - pro_romney
+    - neutral
+  vader_polarity:
+    multiple: false
+    value:
+    - NUMERIC
+is_labelled_data: 'False'
+neutral_tweet_file: None
+tweet_file: /root/directedstudyfall17/new_election_data.txt

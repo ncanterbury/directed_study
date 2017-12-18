@@ -1,0 +1,5 @@
+csv_file: /root/directedstudyfall17/CUT_DOWN_DEMO_ARFF.csv
+feature_selection: 'true'
+grid_search: 'True'
+svm_cost: 'true'
+svm_gamma: 'true'

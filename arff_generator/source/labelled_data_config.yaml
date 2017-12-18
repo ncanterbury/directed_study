@@ -1,0 +1,39 @@
+arff_file: arff_files/DEMO_ARFF.arff
+attributes:
+  cmu_pos_tagging:
+    multiple: false
+    value:
+    - NUMERIC
+  mention_obama:
+    multiple: false
+    value:
+    - NUMERIC
+  mention_romney:
+    multiple: false
+    value:
+    - NUMERIC
+  negative_words:
+    multiple: false
+    value:
+    - NUMERIC
+  positive_words:
+    multiple: false
+    value:
+    - NUMERIC
+  sentence_length:
+    multiple: false
+    value:
+    - NUMERIC
+  sentiment:
+    multiple: true
+    value:
+    - pro_obama
+    - pro_romney
+    - neutral
+  vader_polarity:
+    multiple: false
+    value:
+    - NUMERIC
+is_labelled_data: 'True'
+neutral_tweet_file: None
+tweet_file: tweets/labelledtweets.txt

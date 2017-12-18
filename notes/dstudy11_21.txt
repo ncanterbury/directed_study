@@ -1,0 +1,46 @@
+SVM Model Tests 
+
+NO GridSearch, NO FeatureSelection
+C=1.0, gamma='auto', kernel='poly'
+Misclassified samples: 77
+Accuracy: 0.57
+
+YES GridSearch, NO FeatureSelection (Features trimmed in WEKA)
+C=10, kernel='rbf', gamma=0.1
+Accuracy: 0.68
+ROC AUC: 0.64
+
+YES GridSearch, YES FeatureSelection (Univariate Feature Selection: chi2) 
+C=10, kernel='poly', gamma=auto
+Accuracy: 0.66
+ROC AUC: 0.59
+
+YES GridSearch, YES FeatureSelection (Univariate Feature Selection: f_classif) 
+C=10, kernel='poly', gamma=auto
+Accuracy: 0.66
+ROC AUC: 0.59
+
+YES GridSearch, YES FeatureSelection (Univariate Feature Selection: mutual_info) 
+C=1, kernel='linear', gamma=0.1
+Accuracy: 0.63
+ROC AUC: 0.59 
+
+YES GridSearch, YES FeatureSelection (Recursive Feature Selection)
+C=100, kernel='rbf', gamma=auto
+Accuracy: 0.63
+ROC AUC: 0.59
+
+YES GridSearch, YES FeatureSelection (Select From Model)
+C=100, kernel='rbf', gamma=auto
+Accuracy: 0.59
+ROC AUC: 0.59
+
+Naive Bayes Tests 
+
+YES GridSearch, YES FeatureSelection (Not Available for NB)
+C=100, kernel='rbf', gamma=auto
+Accuracy: 0.59
+ROC AUC: 0.59
+
+
+
